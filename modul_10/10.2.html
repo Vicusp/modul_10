@@ -1,0 +1,41 @@
+<!-- // Сверстайте кнопку, клик на которую будет выводить данные о размерах экрана с помощью alert. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   .btn {
+      background-color: blue;
+      cursor: pointer;
+      border-radius: 10px;
+      border-color: white;
+      color: white;
+      font-size: 22px;
+   }
+
+   .btn:hower {
+      scale: 1.5;
+      cursor: pointer;
+   }
+</style>
+
+<body>
+   <button class="btn">Узнать размер экрана</button>
+   <script>
+      const btn = document.querySelector('.btn');
+      const width = window.screen.width;
+      const height = window.screen.height;
+
+      btn.addEventListener('click', () => {
+         alert(`Ширина экрана: ${width}, высота экрана: ${height} пикселей`);
+      });
+   </script>
+
+</body>
+
+</html>

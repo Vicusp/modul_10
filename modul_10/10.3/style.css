@@ -1,0 +1,63 @@
+body {
+   display: flex;
+   justify-content: center;
+}
+
+.chat {
+   width: 700px;
+   height: 700px;
+   padding: 0;
+   border: 0.1em solid black;
+   padding: 0;
+}
+
+.input {
+   width: 300px;
+   height: 30px;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 20px;
+}
+
+.btn {
+   width: 150px;
+   height: 40px;
+   background-color: rgba(0, 76, 255, 0.207);
+   cursor: pointer;
+   border-radius: 10px;
+   border-color: rgba(0, 0, 0, 0.258);
+   color: black;
+   font-size: 20px;
+ margin-left: 20px;
+}
+
+.btn:hover {
+   background-color: rgba(0, 76, 255, 0.482);
+   opacity: 0.9;
+   border-width: 1px 7px 1px 1px;
+}
+
+.btn:active {
+   -webkit-box-shadow:inset rgba(0, 0, 0, 0.701961) 0px 7px 12px,rgba(0, 0, 0, 0.701961) 0px 2px 12px  ;
+   text-shadow: rgb(0, 0, 0) 0px -2px 1px;
+   margin-top: 1px;
+   }
+
+.msg {
+   font-size: 22px;
+   margin-left: 10px;
+   margin-top: 10px;
+   border: 0.1em solid rgba(0, 0, 0, 0.092);
+   color: black;
+   width: 50%;
+}
+
+.geo {
+   border: 0.1em solid rgba(0, 0, 0, 0.092);
+   color: black;
+   width: 50%;
+   font-size: 20px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
